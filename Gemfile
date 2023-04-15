@@ -4,11 +4,12 @@ ruby '2.3.8'
 
 gem 'rails', '~>4'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'pg', '0.15.1'
+gem 'bcrypt-ruby', '~>3.1'
+#gem 'pg', '0.15.1'
 
 group :development, :test do
   gem 'sqlite3', '~>1.3.8'  
-  gem 'rspec-rails', '3.3.2'
+  gem 'rspec-rails', '~>3.5.2'
 #  gem 'rspec-rails', '~>2.0'
 #  gem 'guard-rspec', '~>3.0'
   gem 'guard-rspec', '~>4.6.0'
