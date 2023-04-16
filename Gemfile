@@ -23,13 +23,14 @@ group :test do
   gem 'capybara', '~> 2.2'
 #  gem 'capybara', '2.1.0'
   gem 'libnotify', '0.8.0'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '~>4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '1.1.1'
+gem 'turbolinks', '~>2'
 gem 'jbuilder', '1.0.2'
 
 gem 'rails-ujs'
