@@ -6,6 +6,9 @@ gem 'rails', '~>4'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '~>3.1'
 #gem 'pg', '0.15.1'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 gem 'sass-rails', '~>4.0.1'
 gem 'uglifier', '2.1.1'
@@ -33,8 +36,8 @@ group :test do
   gem 'capybara', '~> 2.2'
 #  gem 'capybara', '2.1.0'
   gem 'libnotify', '0.8.0'
-  gem 'factory_girl_rails', '~>4.2.1'
-
+  gem 'factory_girl_rails', '~>4.5'
+  gem 'factory_girl', '~>4.5'
   gem 'cucumber-rails', '~>1.4.0', :require => false
   #gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'database_cleaner', '~> 1.0'
