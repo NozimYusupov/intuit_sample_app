@@ -23,6 +23,7 @@ gem 'rails-ujs'
 group :development, :test do
   gem 'sqlite3', '~>1.3.8'  
   gem 'rspec-rails', '~>3.5.2'
+  gem 'rspec-its'
 #  gem 'rspec-rails', '~>2.0'
 #  gem 'guard-rspec', '~>3.0'
   gem 'guard-rspec', '~>4.6.0'
